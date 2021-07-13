@@ -1,26 +1,30 @@
 .btn {
-    font-size: 20px;
-    line-height: 25px;
-    text-transform: capitalize;
-    padding: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 5px;
-    background-color: #EA4C89;
-    color: #fff;
-    border: none;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  background-color: #EA4C89;
+  color: #fff;
+  border: none;
   }
   
-  .btn2 {
-    font-size: 20px;
-    line-height: 25px;
-    text-transform: none;
-    color: #fff;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 20px;
-    background-color: #4285F4;
-    border: none;
-    border-radius: 5px;
+.btn2 {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: none;
+  color: #fff;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  background-color: #4285F4;
+  border: none;
+  border-radius: 5px;
   }
+
+.btn2:hover {
+  cursor: pointer;
+} 
