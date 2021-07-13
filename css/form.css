@@ -1,0 +1,56 @@
+form {
+  display: inline-block;
+  width: 100%;
+}
+
+form > .form-row {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form > .form-row > label {
+display: inline-block;
+width: 100%;
+font-size: 20px;
+color: black;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+form > .form-row > input {
+  display: inline-block;
+  width: 100%;
+  line-height: 25px;
+  font-size: 15px;
+  background: #F5F6F7;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+form > .form-row > input:focus-visible{
+  outline: 2px solid gray;
+} 
+
+form > h1 {
+  font-size: 20px;
+  padding: 20px;
+  padding-left: 0;
+}
+
+form > .form-row > button:hover { 
+  cursor: crosshair;
+  }
+
+form > .form-row > a:hover {
+  text-decoration: overline;
+}
+
+  form > .form-row:first-of-type {
+    width: 45%;
+  }
+
+  form > .form-row:nth-of-type(2) {
+    width: 45%;
+    float: right;
+  }
